@@ -1,8 +1,8 @@
-import java.sql.SQLOutput;
-
 public class Main {
+    //People
     private static final Person Henk = new Person("Henk", "Wijsneus", 16, "Weet hij niet");
     private static final Person Snowflake = new Person("Snow", "Flake", "Storm", 28, "Maiskolf");
+
     //Pets
     private static final Pet Jack = new Pet("Russel", 5, "Dog");
     private static final Pet German = new Pet("Sheppard", 2, "Dog");
@@ -30,7 +30,6 @@ public class Main {
 
         System.out.println(Jan.getGrandChildren());
         System.out.println(Snowflake.getGrandChildren());
-
 
         //pets
         Henk.addPet(Jack);
